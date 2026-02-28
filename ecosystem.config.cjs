@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: "kee-alive-bot",
+      name: "keep-alive-bot",
       script: "npm",
       args: "run start",
 
-      max_memory_restart: "50M",
+      max_memory_restart: "500M",
       exp_backoff_restart_delay: 10000,
 
       max_restarts: 3,
